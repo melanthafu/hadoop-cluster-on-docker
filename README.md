@@ -29,8 +29,8 @@ sudo ./start-container.sh
 
 ***1. manage container***
 $ docker ps # list all running containers
-   -a # list all containers
-   -q # list all containers id
+   - -a # list all containers
+   - -q # list all containers id
 
 $ docker run [params] image_name exec_command # run containers then exec_commond
    -i # keep stdin opended
